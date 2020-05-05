@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Darina</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/table.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link id="dark" type="text/css" rel="stylesheet" href="css/dark.min.css">
+    <link id="light" type="text/css" rel="stylesheet" href="css/light.min.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <script
+            src="https://code.jquery.com/jquery-3.5.0.js"
+            integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+            crossorigin="anonymous"></script>
+    <script src="js/change_th.js"></script>
+
+</head>
+<body>
+<script>
+    AOS.init({
+        duration: 1500,
+    });
+</script>
+<div class="wrapper">
+
+    <section class="theam_mode" data-aos="flip-right">
+        <div id="ch_theam"></div>
+    </section>
+
+    <section class="about_me">
+        <div class="photo_block" data-aos="fade-right">
+            <a data-fancybox="me" href="./img/me/photo_2020-05-04_22-07-54.jpg">
+                <img src="./img/me/photo_2020-05-04_22-07-54.jpg" alt="">
+            </a>
+        </div>
+        <div class="info_block" data-aos="fade-left">
+            <div class="info">
+                <p>Имя:</p>
+                <p>Дарина</p>
+                <p>Дата рождения:</p>
+                <p>15.11.1999</p>
+                <p>Родной город:</p>
+                <p>Кривой рог</p>
+                <p>О себе:</p>
+                <p>Ленивая, робкая, коммуникабельная </p>
+                <p>Напиши мне♥:</p>
+                <p><a href="mailto:НУЖНО НЕ ЗАБЫТЬ ВПИСАТЬ ПОЧТУ">kreitor.darina@gmail.com</a></p>
+            </div>
+            <div class="quote">
+                <h4>Любимая цитата:</h4>
+                <blockquote>
+                    <p>Выберите человека,на которого вы смотрите,как если бы это была магия</p>
+                    <cite>Фрида Кало</cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+    <section class="info_about_my_city">
+        <h2>Мой город</h2>
+        
+        <p>Кривой Рог основан в 1775 году и расположен на месте слияния рек Ингулец и Саксагань. Восьмой по численности
+            населения город Украины, центр Криворожской агломерации. Один из самых длинных городов Европы — линейное
+            расстояние от крайней северной точки до южной 66,1 км по прямой. На официальном сайте исполкома
+            Криворожского городского совета указанная длина города — 126 км</p>
+        <div class="slider">
+
+
+            <a data-fancybox="gallery" href="img/city/photo_2020-05-04_22-22-25.jpg"><img
+                    src="img/city/photo_2020-05-04_22-22-25.jpg" data-aos="flip-left" ></a>
+            <a data-fancybox="gallery" href="img/city/photo_2020-05-04_22-22-24.jpg"><img
+                    src="img/city/photo_2020-05-04_22-22-24.jpg" data-aos="flip-left"></a>
+            <a data-fancybox="gallery" href="img/city/photo_2020-05-04_22-22-24%20(2).jpg"><img
+                    src="img/city/photo_2020-05-04_22-22-24%20(2).jpg" data-aos="flip-left"></a>
+
+
+
+
+            <a data-fancybox="gallery" href="img/city/44_big.jpg"><img
+                    src="img/city/44_big.jpg" data-aos="flip-left"></a>
+            <a data-fancybox="gallery" href="img/city/часы.jpg"><img
+                    src="img/city/часы.jpg" data-aos="flip-left"></a>
+            <a data-fancybox="gallery" href="img/city/23ee65cef2a405ca2a37f654a665522b.jpg"><img
+                    src="img/city/23ee65cef2a405ca2a37f654a665522b.jpg" data-aos="flip-left"></a>
+        </div>
+    </section>
+
+    <section class="my_mood">
+        <h2>Мое настроение</h2>
+        
+        <div class="mood">
+            <div data-aos="fade-down-right">
+                <img src="img/myMood/IMG_20200503_172549_478.jpg" alt="">
+                <p>Сонное</p>
+            </div>
+            <div data-aos="fade-down">
+                <img src="img/myMood/IMG_20200503_172555_035.jpg" alt="">
+                <p>Счастливое</p>
+            </div>
+            <div data-aos="fade-down-left">
+                <img src="img/myMood/IMG_20200503_172557_168.jpg" alt="">
+                <p>Грусное</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="records" data-aos="fade-left">
+        <h2>Мои оценки за прошлый семестр</h2>
+        
+        <table>
+            <tr>
+                <th>Предмет</th>
+                <th>Преподаватель</th>
+                <th>Бал</th>
+            </tr>
+            <tr>
+                <td>Фізичне виховання</td>
+                <td>Войда А.А.</td>
+                <td>60 Е</td>
+            </tr>
+            <tr>
+                <td>Комп'ютерні мережі</td>
+                <td>Трубаєв О.І</td>
+                <td>69 D</td>
+            </tr>
+            <tr>
+                <td>Основи комп'ютерної алгебри</td>
+                <td>Сидоренко О.С</td>
+                <td>62 E</td>
+            </tr>
+            <tr>
+                <td>Історія науки і техніки</td>
+                <td>Ларін А.А</td>
+                <td>75 C</td>
+            </tr>
+            <tr>
+                <td>Інтелектуальний аналіз данних</td>
+                <td>Мартиненко Г.Ю</td>
+                <td>70 D</td>
+            </tr>
+            <tr>
+                <td>Моделювання реальних об'єктів</td>
+                <td>Ніцин О.Ю.</td>
+                <td>60 Е</td>
+            </tr>
+            <tr>
+                <td>Численні методи</td>
+                <td>Матюшенко М.В</td>
+                <td>60 E</td>
+            </tr>
+            <tr>
+                <td>Бази данних</td>
+                <td>Сімонова О.Г</td>
+                <td>75 C</td>
+            </tr>
+            <tr>
+                <td>Комп'ютерна графіка</td>
+                <td>Сидоренко О.С</td>
+                <td>65 D</td>
+            </tr>
+        </table>
+    </section>
+    <section class="films_block">
+        <h2>Мои любимые фильмы и сериалы</h2>
+        
+        <div class="films">
+            <div data-aos="fade-up">
+     
+                <img src="img/movie/75ee545f9ee638adccc8a75430d025.jpg" alt="">
+                <a href="https://www.imdb.com/title/tt1201607/">Гарри Поттер и Дары Смерти</a>
+            </div>
+            <div data-aos="fade-up">
+     
+                <img src="img/movie/75488495.jpg" alt="">
+                <a href="https://www.imdb.com/title/tt2710394/?ref_=nv_sr_srsg_0">Царство</a>
+            </div>
+            <div data-aos="fade-up">
+     
+                <img src="img/movie/c7f84934738c2yu53u21n.jpg" alt="">
+                <a href="https://www.imdb.com/title/tt0325980/">Пираты карибского моря</a>
+            </div>
+            <div data-aos="fade-up">
+     
+                <img src="img/movie/sb80cd51b79admz27o96d.jpg" alt="">
+                <a href="https://www.imdb.com/title/tt1099212/">Сумерки</a>
+            </div>
+            <div data-aos="fade-up">
+     
+                <img src="img/movie/w71ddd28de774ug68q61v%20(1).png" alt="">
+                <a href="https://www.imdb.com/title/tt7767422/">Половое воспитание</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="model_3D">
+        <h2>Умопомрачительно, красивая 3d модель</h2>
+
+        <iframe title="A 3D model"
+                src="https://sketchfab.com/models/be864bceb2c249dba541011c39794e79/embed?preload=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1"
+                frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true"
+                webkitallowfullscreen="true"></iframe>
+
+
+    </section>
+
+
+</div>
+</body>
+</html>
